@@ -1,0 +1,31 @@
+.comment {
+    background-color: rgb(255, 255, 255);
+    box-shadow: -1px 6px 41px -2px rgba(0,0,0,0.34);
+    -webkit-box-shadow: -1px 6px 41px -2px rgba(0,0,0,0.34);
+    -moz-box-shadow: -1px 6px 41px -2px rgba(0,0,0,0.34);
+    padding-bottom: 20px;
+    padding-top: 10px;
+    width: 80%;
+    margin-top: 30px;
+    margin-left: 10%;
+    border-radius: 5px;
+}
+
+.comment-title {
+    font-size: 20px;
+    margin-left: 15px;
+    padding-top: 10px;
+}
+
+.comment-user {
+    font-size: 15px;
+    display: block;
+    color: rgb(27, 183, 27);
+    margin-left: 15px;
+}
+
+.comment-message {
+    margin-top: 5px;
+    margin-left: 15px;
+    margin-right: 5px;
+}

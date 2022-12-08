@@ -1,0 +1,34 @@
+.nav {
+    background-color: black;
+    width: 100%;
+    height: 40px;
+}
+
+.nav-list {
+    display: flex;
+    list-style-type: none;
+}
+
+.nav-list li {
+    padding-top: 7px;
+    width: 33%;
+}
+
+.nav-list a {
+    color: white;
+    text-decoration: none;
+}
+
+.support-link {
+    margin-right: 10px;
+    font-size: 20px;
+}
+
+.about-link {
+    margin-left: 10px;
+    font-size: 20px;
+}
+
+.logo-link {
+    font-size: 20px;
+}

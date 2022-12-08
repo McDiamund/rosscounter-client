@@ -1,0 +1,46 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+@font-face {
+    font-family: jetbrains-mono;
+    src: url(../fonts/JetBrainsMono-Regular.ttf);
+}
+
+@font-face {
+    font-family: dinpro;
+    src: url(../fonts/FontsFree-Net-DINPro-1.ttf);
+}
+
+body {
+    background: url(../assets/background-1.jpg);
+}
+
+.jb-mono {
+    font-family: jetbrains-mono;
+}
+
+.dinpro {
+    font-family: dinpro;
+}
+
+.text-right {
+    text-align: right;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.text-left {
+    text-align: left;
+}
+
+@media only screen and (max-width: 500px) {
+    body {
+        background: url(../assets/background.jpg)
+    }
+    
+}
+

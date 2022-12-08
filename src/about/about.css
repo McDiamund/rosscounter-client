@@ -1,0 +1,52 @@
+.about-module {
+    width: 100%;
+    padding-top: 50px;
+}
+
+.about-info {
+    margin-left: auto;
+    margin-right: auto;
+    width: 700px;
+}
+
+.about-title {
+    text-align: center;
+}
+
+.about-description {
+   margin-top: 20px;
+   font-size: 20px;
+}
+
+.github-info {
+    width: 170px;
+    margin-top: 20px;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.github-logo {
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    border-radius: 60px;
+    background: url(./assets/github.png);
+    background-size: contain;
+}
+
+.github-link {
+   margin-top: 40px;
+   margin-left: 20px;
+}   
+
+@media only screen and (max-width: 950px) {
+    .about-info {
+        width: 70%;
+    }
+
+    .about-description {
+        font-size: 21px;
+    }
+    
+}
