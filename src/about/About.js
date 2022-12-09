@@ -15,7 +15,7 @@ export default function About() {
 
             <div className="github-info">
                 <div className="github-logo"></div>
-                <span className="github-link dinpro">Github</span>
+                <a href="https://github.com/McDiamund/rosscounter-client" target="_blank" className="github-link dinpro">Github</a>
             </div>
         </div>
     )

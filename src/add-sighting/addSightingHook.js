@@ -3,7 +3,7 @@
     const uRossCounter = async function updateRossNumber(newNumber) {
         const newCount = { name: "rosscount", count: newNumber };
 
-        const response = await fetch("http://localhost:5000/update-count", {
+        const response = await fetch("https://rosscounter.herokuapp.com/update-count", {
             method: "POST",
             headers: {
                 "Content-Type": "application/json",
@@ -22,7 +22,7 @@
     const submitSighting = async (name, message, rcount) => {
         const newComment = { name: name, message: message, rossNumber: rcount  };
         
-        await fetch("http://localhost:5000/add-comment", {
+        await fetch("https://rosscounter.herokuapp.com/add-comment", {
             method: "POST",
             headers: {
                 "Content-Type": "application/json",
@@ -46,7 +46,7 @@
             return "Please insert a message.";
         }
         
-            const response = await fetch(`http://localhost:5000/count`);
+            const response = await fetch(`https://rosscounter.herokuapp.com/count`);
             
 
             if (!response.ok) {

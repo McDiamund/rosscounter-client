@@ -10,7 +10,7 @@ export default function Home() {
     useEffect(() => {
 
         async function getRossNumber(name, message) {
-            const response = await fetch(`http://localhost:5000/count`);
+            const response = await fetch(`https://rosscounter.herokuapp.com/count`);
     
             if (!response.ok) {
                 const message = `An error occured: ${response.statusText}`;
@@ -23,7 +23,7 @@ export default function Home() {
         }
 
         async function getComments() {
-            const response = await fetch(`http://localhost:5000/comments`);
+            const response = await fetch(`https://rosscounter.herokuapp.com/comments`);
 
             if (!response.ok) {
                 const message = `An error occured: ${response.statusText}`;

@@ -33,7 +33,7 @@ export default function Support() {
             return;
         }
 
-        const response = await fetch("http://localhost:5000/email").catch((error) => {return error});
+        const response = await fetch("https://rosscounter.herokuapp.com/email").catch((error) => {return error});
 
         if (response.message === "Failed to fetch") {
             setError("Your IP is blocked from sending emails for 15 minutes");
